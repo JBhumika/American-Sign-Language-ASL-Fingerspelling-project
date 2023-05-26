@@ -18,7 +18,7 @@ The process involves recording a video while making American Sign Language (ASL)
 # Implementation of the Project
 * Create training videos for alphabets and words.
 * Extract frames from each video.
-* Utilize posenet to generate keypoints for the extracted frames.
+* Utilize Mediapipe to generate keypoints for the extracted frames.
 * Crop hand frames from each frame using wrist position as a reference point.
 * Employ a segmentation algorithm to isolate alphabet frames from the word frames by utilizing the left and right arm key point coordinates.
 * Merge the segmented frames to predict the corresponding alphabets and words.
